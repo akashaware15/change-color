@@ -1,0 +1,21 @@
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    height: 25px;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    border: 1px solid black;
+    border-radius: 20px;
+}
