@@ -50,10 +50,7 @@ if (number % 10 === 0) {
 
 let percentage = prompt("Enter your percentage:");
 
-if ((percentage) || percentage < 0 || percentage > 90) {
-    console.log("Please enter a valid percentage between 0 and 90.");
-    alert("Please enter a valid percentage between 0 and 90.");
-} else if (percentage >= 80 && percentage <= 90) {
+if (percentage >= 80 && percentage <= 90) {
     console.log("Excellent");
     alert("Excellent");
 } else if (percentage >= 70 && percentage < 80) {
@@ -64,7 +61,7 @@ if ((percentage) || percentage < 0 || percentage > 90) {
     alert("OK");
 } else if (percentage >= 50 && percentage < 60) {
     console.log("Avg");
-    alert("Avg");
+    alert("Average");
 } else if (percentage >= 40 && percentage < 50) {
     console.log("You are legend");
     alert("You are legend");
@@ -78,6 +75,6 @@ if ((percentage) || percentage < 0 || percentage > 90) {
     console.log("Bhagwan hi bacha sakte hai bhai");
     alert("Bhagwan hi bacha sakte hai bhai");
 } else {
-    console.log("Please Enter Number");
-    alert("Please Enter Number");
+    console.log("Invalid percentage. Enter a value between 0 and 90.");
+    alert("Invalid percentage. Enter a value between 0 and 90.");
 }
