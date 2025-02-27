@@ -57,7 +57,7 @@ if (percentage >= 80 && percentage <= 90) {
 } else if (percentage >= 70 && percentage < 80) {
     console.log("Good");
     alert("Good");
-    
+
 } else if (percentage >= 60 && percentage < 70) {
     console.log("OK");
     alert("OK");
@@ -81,7 +81,7 @@ if (percentage >= 80 && percentage <= 90) {
 } else if (percentage >= 10 && percentage < 20) {
     console.log("Bhagwan hi bacha sakte hai bhai");
     alert("Bhagwan hi bacha sakte hai bhai");
-    
+
 } else {
     console.log("Invalid percentage. Enter a value between 0 and 90.");
     alert("Invalid percentage. Enter a value between 0 and 90.");
